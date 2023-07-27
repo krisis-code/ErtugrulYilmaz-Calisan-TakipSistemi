@@ -12,7 +12,7 @@ build_property.RootNamespace = CalisanTakipSistemi
 build_property.ProjectDir = C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\CalisanTakipSistemi\CalisanTakipSistemi\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\CalisanTakipSistemi\CalisanTakipSistemi
 build_property._RazorSourceGeneratorDebug = 
 

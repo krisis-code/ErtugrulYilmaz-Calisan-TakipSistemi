@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalisanTakipSistemi", "CalisanTakipSistemi\CalisanTakipSistemi.csproj", "{2A94380B-B141-484F-B579-C2E60149739D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalisanTakipSistemi", "CalisanTakipSistemi\CalisanTakipSistemi.csproj", "{6CB5300C-221F-4D91-AA41-85C5ED7A32DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2A94380B-B141-484F-B579-C2E60149739D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A94380B-B141-484F-B579-C2E60149739D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A94380B-B141-484F-B579-C2E60149739D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A94380B-B141-484F-B579-C2E60149739D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CB5300C-221F-4D91-AA41-85C5ED7A32DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CB5300C-221F-4D91-AA41-85C5ED7A32DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CB5300C-221F-4D91-AA41-85C5ED7A32DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CB5300C-221F-4D91-AA41-85C5ED7A32DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {14BBA5D4-380C-49D5-BB60-1F499C425647}
+		SolutionGuid = {A50F91C8-D089-4553-BF53-5CE942459DCF}
 	EndGlobalSection
 EndGlobal
