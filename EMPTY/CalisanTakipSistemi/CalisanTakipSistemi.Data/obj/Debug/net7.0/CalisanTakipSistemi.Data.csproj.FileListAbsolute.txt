@@ -1,0 +1,14 @@
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\bin\Debug\net7.0\CalisanTakipSistemi.Data.deps.json
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\bin\Debug\net7.0\CalisanTakipSistemi.Data.runtimeconfig.json
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\bin\Debug\net7.0\CalisanTakipSistemi.Data.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\bin\Debug\net7.0\CalisanTakipSistemi.Data.pdb
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\obj\Debug\net7.0\CalisanTakipSistemi.Data.csproj.AssemblyReference.cache
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\obj\Debug\net7.0\CalisanTakipSistemi.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\obj\Debug\net7.0\CalisanTakipSistemi.Data.AssemblyInfoInputs.cache
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\obj\Debug\net7.0\CalisanTakipSistemi.Data.AssemblyInfo.cs
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\obj\Debug\net7.0\CalisanTakipSistemi.Data.csproj.CoreCompileInputs.cache
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\obj\Debug\net7.0\CalisanTakipSistemi.Data.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\obj\Debug\net7.0\refint\CalisanTakipSistemi.Data.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\obj\Debug\net7.0\CalisanTakipSistemi.Data.pdb
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\obj\Debug\net7.0\CalisanTakipSistemi.Data.genruntimeconfig.cache
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\CalisanTakipSistemi\CalisanTakipSistemi.Data\obj\Debug\net7.0\ref\CalisanTakipSistemi.Data.dll
