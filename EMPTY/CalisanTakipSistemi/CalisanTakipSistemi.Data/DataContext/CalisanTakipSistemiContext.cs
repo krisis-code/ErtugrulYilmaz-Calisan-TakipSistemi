@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using CalisanTakipSistemi.Data.DbModels;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,6 @@ namespace CalisanTakipSistemi.Data.DataContext
         {
 
         }
-        
+        public DbSet<Employe> employe { get; set; }
     }
 }
