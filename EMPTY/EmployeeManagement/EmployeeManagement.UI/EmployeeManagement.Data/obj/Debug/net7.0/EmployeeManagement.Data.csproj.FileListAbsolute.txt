@@ -1,0 +1,12 @@
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\obj\Debug\net7.0\EmployeeManagement.Data.csproj.AssemblyReference.cache
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\obj\Debug\net7.0\EmployeeManagement.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\obj\Debug\net7.0\EmployeeManagement.Data.AssemblyInfoInputs.cache
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\obj\Debug\net7.0\EmployeeManagement.Data.AssemblyInfo.cs
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\obj\Debug\net7.0\EmployeeManagement.Data.csproj.CoreCompileInputs.cache
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\bin\Debug\net7.0\EmployeeManagement.Data.deps.json
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\bin\Debug\net7.0\EmployeeManagement.Data.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\bin\Debug\net7.0\EmployeeManagement.Data.pdb
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\obj\Debug\net7.0\EmployeeManagement.Data.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\obj\Debug\net7.0\refint\EmployeeManagement.Data.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\obj\Debug\net7.0\EmployeeManagement.Data.pdb
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Data\obj\Debug\net7.0\ref\EmployeeManagement.Data.dll

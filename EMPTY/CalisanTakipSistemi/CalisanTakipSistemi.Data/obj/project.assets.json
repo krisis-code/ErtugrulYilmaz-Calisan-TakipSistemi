@@ -3643,9 +3643,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\CalisanTakipSistemi\\CalisanTakipSistemi.Data\\CalisanTakipSistemi.Data.csproj",
-      "projectName": "CalisanTakipSistemi.Data",
-      "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\CalisanTakipSistemi\\CalisanTakipSistemi.Data\\CalisanTakipSistemi.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\CalisanTakipSistemi\\CalisanTakipSistemi.Data\\EmployeeManagement.Data.csproj",
+      "projectName": "EmployeeManagement.Data",
+      "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\CalisanTakipSistemi\\CalisanTakipSistemi.Data\\EmployeeManagement.Data.csproj",
       "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\CalisanTakipSistemi\\CalisanTakipSistemi.Data\\obj\\",
       "projectStyle": "PackageReference",

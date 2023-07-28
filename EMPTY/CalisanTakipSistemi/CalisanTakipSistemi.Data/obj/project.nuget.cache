@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/zYg5xn0brDPNZncBRS2W6FUT9g0gOZLXIEc8g0z17ZZBsq/lR7OSVFukCYkWyfYm3wruO2BKELfBFBKhMBYrg==",
+  "dgSpecHash": "p/xJX2aVMCwQwFE8YwgRpqEE+ervKmmchVz6iX1ZNaphCpSQ/+sr1idlmumCbuN+bMszeHyHDJ6jdwBNBwUC5Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\CalisanTakipSistemi\\CalisanTakipSistemi.Data\\CalisanTakipSistemi.Data.csproj",
+  "projectFilePath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\CalisanTakipSistemi\\CalisanTakipSistemi.Data\\EmployeeManagement.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kris\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Kris\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

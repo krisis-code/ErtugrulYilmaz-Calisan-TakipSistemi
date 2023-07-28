@@ -1,0 +1,12 @@
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\bin\Debug\net7.0\EmployeeManagement.BusinesEngine.deps.json
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\bin\Debug\net7.0\EmployeeManagement.BusinesEngine.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\bin\Debug\net7.0\EmployeeManagement.BusinesEngine.pdb
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\obj\Debug\net7.0\EmployeeManagement.BusinesEngine.csproj.AssemblyReference.cache
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\obj\Debug\net7.0\EmployeeManagement.BusinesEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\obj\Debug\net7.0\EmployeeManagement.BusinesEngine.AssemblyInfoInputs.cache
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\obj\Debug\net7.0\EmployeeManagement.BusinesEngine.AssemblyInfo.cs
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\obj\Debug\net7.0\EmployeeManagement.BusinesEngine.csproj.CoreCompileInputs.cache
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\obj\Debug\net7.0\EmployeeManagement.BusinesEngine.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\obj\Debug\net7.0\refint\EmployeeManagement.BusinesEngine.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\obj\Debug\net7.0\EmployeeManagement.BusinesEngine.pdb
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeManagement.BusinesEngine\obj\Debug\net7.0\ref\EmployeeManagement.BusinesEngine.dll
