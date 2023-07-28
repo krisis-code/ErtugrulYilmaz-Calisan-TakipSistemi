@@ -3,10 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace CalisanTakipSistemi.Data.Migrations
+namespace EmployeeManagement.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class AddIdentitiyTables : Migration
+    public partial class AddEmployeeTables : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -30,6 +30,11 @@ namespace CalisanTakipSistemi.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FirstName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    LastName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    TaxId = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    DateOfBirth = table.Column<DateTime>(type: "datetime2", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -48,6 +53,21 @@ namespace CalisanTakipSistemi.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "EmployeeLeaveTypes",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DefaultDays = table.Column<int>(type: "int", nullable: false),
+                    DateCreated = table.Column<DateTime>(type: "datetime2", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_EmployeeLeaveTypes", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -156,6 +176,72 @@ namespace CalisanTakipSistemi.Data.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "EmployeeLeaveRequests",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    RequestingEmployeeId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    ApprovedEmployeeId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    EmployeeLeaveTypeId = table.Column<int>(type: "int", nullable: false),
+                    StartDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    EndDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    DateRequest = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    RequestComment = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Approved = table.Column<bool>(type: "bit", nullable: true),
+                    Cancelled = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_EmployeeLeaveRequests", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_EmployeeLeaveRequests_AspNetUsers_ApprovedEmployeeId",
+                        column: x => x.ApprovedEmployeeId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_EmployeeLeaveRequests_AspNetUsers_RequestingEmployeeId",
+                        column: x => x.RequestingEmployeeId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_EmployeeLeaveRequests_EmployeeLeaveTypes_EmployeeLeaveTypeId",
+                        column: x => x.EmployeeLeaveTypeId,
+                        principalTable: "EmployeeLeaveTypes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "EmployeeNewAllocations",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    NumberOfDays = table.Column<int>(type: "int", nullable: false),
+                    DateCreated = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    Period = table.Column<int>(type: "int", nullable: false),
+                    EmployeeId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    EmployeeLeaveTypeId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_EmployeeNewAllocations", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_EmployeeNewAllocations_AspNetUsers_EmployeeId",
+                        column: x => x.EmployeeId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_EmployeeNewAllocations_EmployeeLeaveTypes_EmployeeLeaveTypeId",
+                        column: x => x.EmployeeLeaveTypeId,
+                        principalTable: "EmployeeLeaveTypes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -194,6 +280,31 @@ namespace CalisanTakipSistemi.Data.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_EmployeeLeaveRequests_ApprovedEmployeeId",
+                table: "EmployeeLeaveRequests",
+                column: "ApprovedEmployeeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_EmployeeLeaveRequests_EmployeeLeaveTypeId",
+                table: "EmployeeLeaveRequests",
+                column: "EmployeeLeaveTypeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_EmployeeLeaveRequests_RequestingEmployeeId",
+                table: "EmployeeLeaveRequests",
+                column: "RequestingEmployeeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_EmployeeNewAllocations_EmployeeId",
+                table: "EmployeeNewAllocations",
+                column: "EmployeeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_EmployeeNewAllocations_EmployeeLeaveTypeId",
+                table: "EmployeeNewAllocations",
+                column: "EmployeeLeaveTypeId");
         }
 
         /// <inheritdoc />
@@ -215,10 +326,19 @@ namespace CalisanTakipSistemi.Data.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "EmployeeLeaveRequests");
+
+            migrationBuilder.DropTable(
+                name: "EmployeeNewAllocations");
+
+            migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "EmployeeLeaveTypes");
         }
     }
 }
