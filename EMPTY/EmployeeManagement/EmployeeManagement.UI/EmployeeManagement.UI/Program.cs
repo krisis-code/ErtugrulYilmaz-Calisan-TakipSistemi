@@ -18,11 +18,22 @@ builder.Services.AddAutoMapper(typeof(Maps));
 //builder.Services.AddScoped<IEmployeeLeaveRequestRepository, EmployeeLeaveRequestRepository>();
 //builder.Services.AddScoped<IEmployeeLeaveTypeRepository, EmployeeLeaveTypeRepository>();
 builder.Services.AddScoped<IEmployeeLeaveTypeBusinessEngine, EmployeeLeaveTypeBusinessEngine>();
-
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Merhaba  Worldd!");
+// Configure the HTTP request pipeline.
 
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthorization();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.MapRazorPages();
 app.Run();

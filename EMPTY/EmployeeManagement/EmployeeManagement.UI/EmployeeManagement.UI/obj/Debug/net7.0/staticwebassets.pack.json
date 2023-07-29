@@ -1,0 +1,809 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\EmployeeManagement.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EmployeeManagement.UI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\ace-ie.min.css",
+      "PackagePath": "staticwebassets\\css\\ace-ie.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\ace-part2.min.css",
+      "PackagePath": "staticwebassets\\css\\ace-part2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\ace-rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\ace-rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\ace-skins.min.css",
+      "PackagePath": "staticwebassets\\css\\ace-skins.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\ace.min.css",
+      "PackagePath": "staticwebassets\\css\\ace.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\bootstrap-colorpicker.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-colorpicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\bootstrap-datepicker3.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-datepicker3.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\bootstrap-duallistbox.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-duallistbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\bootstrap-editable.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-editable.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\bootstrap-multiselect.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-multiselect.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\chosen.min.css",
+      "PackagePath": "staticwebassets\\css\\chosen.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\colorbox.min.css",
+      "PackagePath": "staticwebassets\\css\\colorbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\daterangepicker.min.css",
+      "PackagePath": "staticwebassets\\css\\daterangepicker.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\css\\dropzone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\fonts.googleapis.com.css",
+      "PackagePath": "staticwebassets\\css\\fonts.googleapis.com.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\css\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\jquery-ui.custom.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.custom.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\jquery.gritter.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.gritter.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\prettify.min.css",
+      "PackagePath": "staticwebassets\\css\\prettify.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\css\\ui.jqgrid.min.css",
+      "PackagePath": "staticwebassets\\css\\ui.jqgrid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\font-awesome\\4.5.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\font-awesome\\4.5.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\font-awesome\\4.5.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\avatars\\avatar.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\avatars\\avatar1.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\avatars\\avatar2.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\avatars\\avatar3.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar3.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\avatars\\avatar4.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\avatars\\avatar5.png",
+      "PackagePath": "staticwebassets\\images\\avatars\\avatar5.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\avatars\\profile-pic.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\profile-pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\avatars\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\avatars\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\bootstrap-colorpicker\\alpha-horizontal.png",
+      "PackagePath": "staticwebassets\\images\\bootstrap-colorpicker\\alpha-horizontal.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\bootstrap-colorpicker\\alpha.png",
+      "PackagePath": "staticwebassets\\images\\bootstrap-colorpicker\\alpha.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\bootstrap-colorpicker\\hue-horizontal.png",
+      "PackagePath": "staticwebassets\\images\\bootstrap-colorpicker\\hue-horizontal.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\bootstrap-colorpicker\\hue.png",
+      "PackagePath": "staticwebassets\\images\\bootstrap-colorpicker\\hue.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\bootstrap-colorpicker\\saturation.png",
+      "PackagePath": "staticwebassets\\images\\bootstrap-colorpicker\\saturation.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\email\\email1.png",
+      "PackagePath": "staticwebassets\\images\\email\\email1.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\email\\email2.png",
+      "PackagePath": "staticwebassets\\images\\email\\email2.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\email\\email3.png",
+      "PackagePath": "staticwebassets\\images\\email\\email3.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\email\\email4.png",
+      "PackagePath": "staticwebassets\\images\\email\\email4.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\image-1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\image-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\image-2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\image-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\image-3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\image-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\image-4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\image-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\image-5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\image-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\image-6.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\image-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\thumb-5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\gallery\\thumb-6.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery\\thumb-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\placeholder\\165x90.png",
+      "PackagePath": "staticwebassets\\images\\placeholder\\165x90.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\placeholder\\255x150.png",
+      "PackagePath": "staticwebassets\\images\\placeholder\\255x150.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\placeholder\\530x270.png",
+      "PackagePath": "staticwebassets\\images\\placeholder\\530x270.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\images\\placeholder\\550x280.png",
+      "PackagePath": "staticwebassets\\images\\placeholder\\550x280.png"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\ace-editable.min.js",
+      "PackagePath": "staticwebassets\\js\\ace-editable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\ace-elements.min.js",
+      "PackagePath": "staticwebassets\\js\\ace-elements.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\ace-extra.min.js",
+      "PackagePath": "staticwebassets\\js\\ace-extra.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\ace.min.js",
+      "PackagePath": "staticwebassets\\js\\ace.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\autosize.min.js",
+      "PackagePath": "staticwebassets\\js\\autosize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootbox.js",
+      "PackagePath": "staticwebassets\\js\\bootbox.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootstrap-colorpicker.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-colorpicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootstrap-editable.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-editable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootstrap-markdown.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-markdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootstrap-multiselect.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-multiselect.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootstrap-tag.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-tag.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootstrap-wysiwyg.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-wysiwyg.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\buttons.colVis.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.colVis.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.flash.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\chosen.jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\chosen.jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\dataTables.select.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\daterangepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\daterangepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\js\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\excanvas.min.js",
+      "PackagePath": "staticwebassets\\js\\excanvas.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\js\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\grid.locale-en.js",
+      "PackagePath": "staticwebassets\\js\\grid.locale-en.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\holder.min.js",
+      "PackagePath": "staticwebassets\\js\\holder.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\html5shiv.min.js",
+      "PackagePath": "staticwebassets\\js\\html5shiv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery-1.11.3.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-1.11.3.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery-2.1.4.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-2.1.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery-additional-methods.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery-typeahead.js",
+      "PackagePath": "staticwebassets\\js\\jquery-typeahead.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery-ui.custom.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.bootstrap-duallistbox.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.bootstrap-duallistbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.colorbox.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.colorbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.easypiechart.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.easypiechart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.flot.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.flot.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.flot.pie.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.flot.pie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.flot.resize.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.flot.resize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.gritter.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.gritter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.hotkeys.index.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.hotkeys.index.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.inputlimiter.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.inputlimiter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.jqGrid.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.jqGrid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.knob.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.knob.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.maskedinput.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.maskedinput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.mobile.custom.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mobile.custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.nestable.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nestable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.raty.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.raty.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.sparkline.index.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sparkline.index.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.ui.touch-punch.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.ui.touch-punch.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\markdown.min.js",
+      "PackagePath": "staticwebassets\\js\\markdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\prettify.min.js",
+      "PackagePath": "staticwebassets\\js\\prettify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\respond.min.js",
+      "PackagePath": "staticwebassets\\js\\respond.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\spin.js",
+      "PackagePath": "staticwebassets\\js\\spin.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\spinbox.min.js",
+      "PackagePath": "staticwebassets\\js\\spinbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\tree.min.js",
+      "PackagePath": "staticwebassets\\js\\tree.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\js\\wizard.min.js",
+      "PackagePath": "staticwebassets\\js\\wizard.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\wwwroot\\swf\\flashExport.swf",
+      "PackagePath": "staticwebassets\\swf\\flashExport.swf"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EmployeeManagement.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.EmployeeManagement.UI.props",
+      "PackagePath": "build\\EmployeeManagement.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.EmployeeManagement.UI.props",
+      "PackagePath": "buildMultiTargeting\\EmployeeManagement.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.EmployeeManagement.UI.props",
+      "PackagePath": "buildTransitive\\EmployeeManagement.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

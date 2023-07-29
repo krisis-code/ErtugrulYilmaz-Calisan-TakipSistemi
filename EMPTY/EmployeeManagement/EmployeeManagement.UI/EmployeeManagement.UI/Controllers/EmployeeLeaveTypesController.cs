@@ -13,7 +13,11 @@ namespace EmployeeManagement.UI.Controllers
         }
         public IActionResult Index()
         {
-            var data = _employeeLeaveTypeBusinessEngine.GetAllEmployeeTypes().;
+            var data = _employeeLeaveTypeBusinessEngine.GetAllEmployeeTypes();
+            if (data.IsSucces == true)
+            {
+            
+            }
             return View();
         }
     }
