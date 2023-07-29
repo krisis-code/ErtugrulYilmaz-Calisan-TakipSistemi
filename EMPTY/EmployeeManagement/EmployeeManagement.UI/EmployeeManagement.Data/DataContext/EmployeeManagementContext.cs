@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmployeeManagement.Data.DataContext
+namespace EmployeeManagement.Data.Contracts.DataContext
 {
     public class EmployeeManagementContext : IdentityDbContext
     {
@@ -18,7 +18,7 @@ namespace EmployeeManagement.Data.DataContext
 
         }
         public DbSet<Employee> Employee { get; set; }
-        public DbSet<EmployeeNewAllocation> EmployeeNewAllocations { get; set; }
+        public DbSet<EmployeeLeaveAllocation> EmployeeNewAllocations { get; set; }
         public DbSet<EmployeeLeaveRequest> EmployeeLeaveRequests { get; set; }
         public DbSet<EmployeeLeaveType> EmployeeLeaveTypes { get; set; }
 
@@ -32,11 +32,11 @@ namespace EmployeeManagement.Data.DataContext
         .HasForeignKey(e => e.RequestingEmployeeId)
         .OnDelete(DeleteBehavior.NoAction);
 
-    modelBuilder.Entity<EmployeeLeaveRequest>()
-        .HasOne(e => e.ApprovedEmployee)
-        .WithMany()
-        .HasForeignKey(e => e.ApprovedEmployeeId)
-        .OnDelete(DeleteBehavior.NoAction);
+            modelBuilder.Entity<EmployeeLeaveRequest>()
+                .HasOne(e => e.ApprovedEmployee)
+                .WithMany()
+                .HasForeignKey(e => e.ApprovedEmployeeId)
+                .OnDelete(DeleteBehavior.NoAction);
         }
     }
 }

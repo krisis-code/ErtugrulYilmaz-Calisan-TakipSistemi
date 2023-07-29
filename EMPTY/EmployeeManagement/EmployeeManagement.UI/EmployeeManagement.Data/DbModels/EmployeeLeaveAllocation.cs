@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Data.DbModels
 {
-    public class EmployeeNewAllocation : BaseEntity
+    public class EmployeeLeaveAllocation : BaseEntity
     {
         public int NumberOfDays { get; set; }
 

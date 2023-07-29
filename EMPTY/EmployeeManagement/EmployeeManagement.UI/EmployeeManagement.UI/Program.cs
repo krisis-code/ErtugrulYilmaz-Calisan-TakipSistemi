@@ -1,4 +1,4 @@
-using EmployeeManagement.Data.DataContext;
+using EmployeeManagement.Data.Contracts.DataContext;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
