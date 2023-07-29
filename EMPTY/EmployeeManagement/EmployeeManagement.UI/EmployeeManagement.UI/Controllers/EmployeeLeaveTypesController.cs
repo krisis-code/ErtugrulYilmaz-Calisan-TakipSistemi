@@ -16,7 +16,8 @@ namespace EmployeeManagement.UI.Controllers
             var data = _employeeLeaveTypeBusinessEngine.GetAllEmployeeTypes();
             if (data.IsSucces == true)
             {
-            
+                var result = data.Data;
+                return View(result);
             }
             return View();
         }
