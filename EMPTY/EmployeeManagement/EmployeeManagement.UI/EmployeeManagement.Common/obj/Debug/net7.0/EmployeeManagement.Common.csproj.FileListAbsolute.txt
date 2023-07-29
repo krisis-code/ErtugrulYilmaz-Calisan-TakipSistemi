@@ -10,3 +10,6 @@ C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManageme
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Common\obj\Debug\net7.0\refint\EmployeeManagement.Common.dll
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Common\obj\Debug\net7.0\EmployeeManagement.Common.pdb
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Common\obj\Debug\net7.0\ref\EmployeeManagement.Common.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Common\bin\Debug\net7.0\EmployeeManagement.Data.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Common\bin\Debug\net7.0\EmployeeManagement.Data.pdb
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.Common\obj\Debug\net7.0\EmployeeManagement.Common.csproj.CopyComplete

@@ -405,3 +405,7 @@ C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManageme
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\bin\Debug\net7.0\Mono.TextTemplating.dll
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\bin\Debug\net7.0\EmployeeManagement.Common.dll
+C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\bin\Debug\net7.0\EmployeeManagement.Common.pdb

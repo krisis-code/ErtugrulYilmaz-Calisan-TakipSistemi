@@ -1469,6 +1469,20 @@
           }
         }
       },
+      "EmployeeManagement.BusinesEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "EmployeeManagement.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeManagement.BusinesEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagement.BusinesEngine.dll": {}
+        }
+      },
       "EmployeeManagement.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -4280,6 +4294,11 @@
         "version.txt"
       ]
     },
+    "EmployeeManagement.BusinesEngine/1.0.0": {
+      "type": "project",
+      "path": "../EmployeManagement.BusinesEngine/EmployeeManagement.BusinesEngine.csproj",
+      "msbuildProject": "../EmployeManagement.BusinesEngine/EmployeeManagement.BusinesEngine.csproj"
+    },
     "EmployeeManagement.Common/1.0.0": {
       "type": "project",
       "path": "../EmployeeManagement.Common/EmployeeManagement.Common.csproj",
@@ -4293,6 +4312,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "EmployeeManagement.BusinesEngine >= 1.0.0",
       "EmployeeManagement.Common >= 1.0.0",
       "EmployeeManagement.Data >= 1.0.0",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 7.0.9",
@@ -4340,6 +4360,9 @@
             },
             "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
               "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
+            },
+            "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj": {
+              "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj"
             }
           }
         }
