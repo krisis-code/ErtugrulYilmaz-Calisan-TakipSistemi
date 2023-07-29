@@ -1139,6 +1139,20 @@
           }
         }
       },
+      "EmployeeManagement.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "EmployeeManagement.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EmployeeManagement.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EmployeeManagement.Common.dll": {}
+        }
+      },
       "EmployeeManagement.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3419,6 +3433,11 @@
         "version.txt"
       ]
     },
+    "EmployeeManagement.Common/1.0.0": {
+      "type": "project",
+      "path": "../EmployeeManagement.Common/EmployeeManagement.Common.csproj",
+      "msbuildProject": "../EmployeeManagement.Common/EmployeeManagement.Common.csproj"
+    },
     "EmployeeManagement.Data/1.0.0": {
       "type": "project",
       "path": "../EmployeeManagement.Data/EmployeeManagement.Data.csproj",
@@ -3428,6 +3447,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "EmployeeManagement.Common >= 1.0.0",
       "EmployeeManagement.Data >= 1.0.0"
     ]
   },
@@ -3465,6 +3485,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj": {
+              "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj"
+            },
             "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
               "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
             }

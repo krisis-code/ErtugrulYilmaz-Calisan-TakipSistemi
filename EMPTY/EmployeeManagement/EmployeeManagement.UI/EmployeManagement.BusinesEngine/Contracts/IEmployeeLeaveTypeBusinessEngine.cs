@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EmployeeManagement.Common.ResultModels;
+using EmployeeManagement.Data.DbModels;
 
 namespace EmployeeManagement.BusinesEngine.Contracts
 {
     public interface IEmployeeLeaveTypeBusinessEngine
     {
+        Result<List<EmployeeLeaveType>> GetAllEmployeeTypes();
     }
 }
