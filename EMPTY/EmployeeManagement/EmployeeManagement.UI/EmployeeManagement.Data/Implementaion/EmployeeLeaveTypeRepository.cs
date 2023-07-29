@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using EmployeeManagement.Data.Contracts;
+using EmployeeManagement.Data.Contracts.DataContext;
+using EmployeeManagement.Data.DbModels;
 
 namespace EmployeeManagement.Data.Implementaion
 {
-    internal class EmployeeLeaveTypeRepository
+    public class EmployeeLeaveTypeRepository : Repository<EmployeeLeaveType> , IEmployeeLeaveTypeRepository
     {
+        private readonly IEmployeeLeaveTypeRepository _ctx;
+
+        public EmployeeLeaveTypeRepository(EmployeeManagementContext ctx) 
+            : base(ctx) 
+        {
+            
+        }
     }
 }

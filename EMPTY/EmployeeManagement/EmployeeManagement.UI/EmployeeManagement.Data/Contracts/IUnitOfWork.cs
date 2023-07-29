@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Data.Contracts
 {
-    internal interface IUnitOfWork
+    public interface IUnitOfWork : IDisposable
     {
+        void save();
     }
 }
