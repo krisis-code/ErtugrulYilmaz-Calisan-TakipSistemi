@@ -14,17 +14,19 @@ namespace EmployeeManagement.Data.Implementaion
 
         public UnitOfWork(EmployeeManagementContext ctx)
         {
-            _ctx = ctx;  
-            employeeLeaveAllocation = new EmployeeLeaveAllocationRepository(_ctx);
-            employeeLeaveType = new EmployeeLeaveTypeRepository(_ctx);
-            employeeLeaveRequest = new EmployeeLeaveRequestRepository(_ctx);
+            _ctx = ctx;
+			employeeLeaveAllocationRepository = new EmployeeLeaveAllocationRepository(_ctx);
+			employeeLeaveRequestRepository = new EmployeeLeaveRequestRepository(_ctx);
+			employeeLeaveTypeRepository = new EmployeeLeaveTypeRepository(_ctx);
         }
 
-        public IEmployeeLeaveAllocationRepository employeeLeaveAllocation {get; private set;}
-        public IEmployeeLeaveRequestRepository employeeLeaveRequest { get; private set;}
-        public IEmployeeLeaveTypeRepository employeeLeaveType { get; private set;}
+        public IEmployeeLeaveAllocationRepository employeeLeaveAllocationRepository { get; private set;}
+        public IEmployeeLeaveRequestRepository employeeLeaveRequestRepository { get; private set;}
+        public IEmployeeLeaveTypeRepository employeeLeaveTypeRepository { get; private set;}
 
-        public void Dispose()
+	
+
+		public void Dispose()
         {
            _ctx.Dispose();
         }

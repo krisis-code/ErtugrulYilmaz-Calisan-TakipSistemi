@@ -1,4 +1,6 @@
 ﻿using EmployeeManagement.BusinesEngine.Contracts;
+using EmployeeManagement.BusinesEngine.Implementaion;
+using EmployeeManagement.Common.VModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.UI.Controllers
@@ -21,10 +23,29 @@ namespace EmployeeManagement.UI.Controllers
             }
             return View();
         }
+        [HttpGet]
 		public IActionResult Create()
 		{
 			
 			return View();
+		}
+        [HttpPost]
+		public IActionResult Create(EmployeeLeaveTypeVM model)
+		{
+            if (ModelState.IsValid)
+            {
+                var data = _employeeLeaveTypeBusinessEngine.CreateEmployeeLeaveType(model);
+                if (data.IsSucces)
+                {
+                    return RedirectToAction("Index");
+                }
+                return View(model);
+			}
+            else 
+                return View(model);
+			
+
+			
 		}
 	}
 }

@@ -10,5 +10,7 @@ namespace EmployeeManagement.Common.ConstantModels
     {
         public const string RecordFound = "Kayıt Bulundu";
         public const string RecordNotFound = "Kayıt Bulunamadı";
-    }
+		public const string RecordCreatedSuccessFully = "Kayıt Başarı İle Gerçekleşti.";
+		public const string RecordCreatedNotSuccessFully = "Kayıt Başarısız Oldu.";
+	}
 }
