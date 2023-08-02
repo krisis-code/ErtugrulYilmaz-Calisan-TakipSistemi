@@ -15,7 +15,7 @@ namespace EmployeeManagement.UI.Controllers
         }
         public IActionResult Index()
         {
-            var data = _employeeLeaveTypeBusinessEngine.GetAllEmployeeTypes();
+            var data = _employeeLeaveTypeBusinessEngine.GetAllEmployeeLeaveTypes();
             if (data.IsSucces == true)
             {
                 var result = data.Data;
@@ -46,6 +46,36 @@ namespace EmployeeManagement.UI.Controllers
 			
 
 			
+		}
+
+        [HttpGet]
+        public IActionResult Edit(int id)
+        {
+            if (id < 0)
+                return View();
+            var data = _employeeLeaveTypeBusinessEngine.GetAllEmployeeLeaveType(id);
+            if (data.IsSucces)
+              return View(data.Data);
+            return View();
+
+		}
+        [ValidateAntiForgeryToken]
+		[HttpPost]
+		public IActionResult Edit(EmployeeLeaveTypeVM model)
+		{
+			if(ModelState.IsValid) 
+            {
+            var data = _employeeLeaveTypeBusinessEngine.EditEmployeeLeaveType(model);
+                if (data.IsSucces)
+                {
+                    return RedirectToAction("Index");
+                }
+                return View(model);
+                
+            }
+			else
+				return View(model);
+
 		}
 	}
 }

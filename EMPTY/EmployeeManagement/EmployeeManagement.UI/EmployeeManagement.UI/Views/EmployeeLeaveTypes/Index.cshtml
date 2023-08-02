@@ -35,42 +35,35 @@
 			</thead>
 
 			<tbody>
-				<tr>
+				
 			        
 					@foreach(var item in Model)
 					{
+					<tr>
 						<td>
 						@item.Name
 					</td>
-					<td>@item.DateCreated</td>
+						<td>@item.DateCreated.ToString(" dd.MM.yyyy")</td>
 					
 
-					<td class="hidden-480">
-						<span class="label label-sm label-warning">Expiring</span>
-					</td>
-
+					
 					<td>
 						<div class="hidden-sm hidden-xs btn-group">
-							<button class="btn btn-xs btn-success">
-								<i class="ace-icon fa fa-check bigger-120"></i>
-							</button>
 
-							<button class="btn btn-xs btn-info">
-								<i class="ace-icon fa fa-pencil bigger-120"></i>
-							</button>
+								<a class="ace-icon fa fa-pencil bigger-120" asp-controller="EmployeeLeaveTypes" asp-action="Edit" asp-route-id="@item.Id"></a>
 
-							<button class="btn btn-xs btn-danger">
-								<i class="ace-icon fa fa-trash-o bigger-120"></i>
-							</button>
 
-							<button class="btn btn-xs btn-warning">
-								<i class="ace-icon fa fa-flag bigger-120"></i>
-							</button>
+								
+							<a class="ace-icon fa fa-trash-o bigger-120" asp-controller="EmployeeLeaveTypes" asp-action="Create"></a>
+								
+							<a class="ace-icon fa fa-flag bigger-120" asp-controller="EmployeeLeaveTypes" asp-action="Create"></a>
+							
 						</div>
 						</td>
-					}
+				
 
 				</tr>
+					}
                </tbody>
 		</table>
 	</div><!-- /.span -->

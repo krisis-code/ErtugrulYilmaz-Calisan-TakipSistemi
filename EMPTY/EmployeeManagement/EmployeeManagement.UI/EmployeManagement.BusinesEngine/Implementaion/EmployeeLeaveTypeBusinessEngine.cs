@@ -29,7 +29,7 @@ namespace EmployeeManagement.BusinesEngine.Implementaion
 		#endregion
 
 		#region CustomMethods
-		public Result<List<EmployeeLeaveTypeVM>> GetAllEmployeeTypes()
+		public Result<List<EmployeeLeaveTypeVM>> GetAllEmployeeLeaveTypes()
         {
             var data = _unitOfWork.employeeLeaveTypeRepository.GetAll().ToList();
             #region BirinciYöntem
@@ -59,7 +59,7 @@ namespace EmployeeManagement.BusinesEngine.Implementaion
             #endregion
         }
       
-		public Result<EmployeeLeaveRequestVM> CreateEmployeeLeaveType(EmployeeLeaveTypeVM model)
+		public Result<EmployeeLeaveTypeVM> CreateEmployeeLeaveType(EmployeeLeaveTypeVM model)
 		{
 			if (model != null)
             {
@@ -69,23 +69,61 @@ namespace EmployeeManagement.BusinesEngine.Implementaion
                     leaveType.DateCreated = DateTime.Now;
                     _unitOfWork.employeeLeaveTypeRepository.Add(leaveType);
                     _unitOfWork.save();
-					return new Result<EmployeeLeaveRequestVM>(true, ResultConstant.RecordCreatedSuccessFully);
+					return new Result<EmployeeLeaveTypeVM>(true, ResultConstant.RecordCreatedSuccessFully);
 				}
                 catch (Exception ex)
                 {
 
-                    return new Result<EmployeeLeaveRequestVM>(false,ResultConstant.RecordCreatedNotSuccessFully + "->" + ex.Message.ToString());
+                    return new Result<EmployeeLeaveTypeVM>(false,ResultConstant.RecordCreatedNotSuccessFully + "->" + ex.Message.ToString());
 				}
 
 			}
             else
-             return new Result<EmployeeLeaveRequestVM>(false, "Parametre Olarak Geçilen Data Boş Olamaz!");
+             return new Result<EmployeeLeaveTypeVM>(false, "Parametre Olarak Geçilen Data Boş Olamaz!");
+
+
             
 		}
 
-		
+		public Result<EmployeeLeaveTypeVM> GetAllEmployeeLeaveType(int id)
+		{
+			var data = _unitOfWork.employeeLeaveTypeRepository.Get(id);
+			if (data != null)
+			{
+				var leaveType = _mapper.Map<EmployeeLeaveType, EmployeeLeaveTypeVM>(data);
+				return new Result<EmployeeLeaveTypeVM>(true, ResultConstant.RecordFound, leaveType);
+			}
+			else
+				return new Result<EmployeeLeaveTypeVM>(false, ResultConstant.RecordNotFound);
+		}
 
 
+
+
+		public Result<EmployeeLeaveTypeVM> EditEmployeeLeaveType(EmployeeLeaveTypeVM model)
+		{
+			if (model != null)
+			{
+				try
+				{
+					var leaveType = _mapper.Map<EmployeeLeaveTypeVM, EmployeeLeaveType>(model);
+		            _unitOfWork.employeeLeaveTypeRepository.Update(leaveType);
+					_unitOfWork.save();
+					return new Result<EmployeeLeaveTypeVM>(true, ResultConstant.RecordCreatedSuccessFully);
+				}
+				catch (Exception ex)
+				{
+
+					return new Result<EmployeeLeaveTypeVM>(false, ResultConstant.RecordCreatedNotSuccessFully + "->" + ex.Message.ToString());
+				}
+
+			}
+			else
+				return new Result<EmployeeLeaveTypeVM>(false, "Parametre Olarak Geçilen Data Boş Olamaz!");
+
+
+
+		}
 
 
 
