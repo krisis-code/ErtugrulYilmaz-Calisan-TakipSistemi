@@ -77,5 +77,20 @@ namespace EmployeeManagement.UI.Controllers
 				return View(model);
 
 		}
-	}
+
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            if (id <= 0)
+                return Json(new { success = false, message = "Silmek İçin Kayıt Seçiniz" });
+
+            var data = _employeeLeaveTypeBusinessEngine.RemoveEmployeeLeaveType(id);
+
+            if (data.IsSucces)
+                return Json(new { success = data.IsSucces, message = data.Message });
+            else
+                return Json(new { success = data.IsSucces, message = data.Message });
+
+        }
+    }
 }

@@ -38,5 +38,6 @@ namespace EmployeeManagement.Data.DbModels
         public bool? Approved { get; set; }
 
         public bool Cancelled { get; set; }
-    }
+		public bool IsActive { get; set; }
+	}
 }

@@ -381,7 +381,6 @@ C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManageme
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\bin\Debug\net7.0\EmployeeManagement.Data.dll
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\bin\Debug\net7.0\EmployeeManagement.Data.pdb
-C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\obj\Debug\net7.0\EmployeeManagement.UI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\obj\Debug\net7.0\staticwebassets\msbuild.EmployeeManagement.UI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\obj\Debug\net7.0\staticwebassets\msbuild.build.EmployeeManagement.UI.props
 C:\Users\Kris\Desktop\ErtugrulYilmaz-Calisan-TakipSistemi\EMPTY\EmployeeManagement\EmployeeManagement.UI\EmployeeManagement.UI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.EmployeeManagement.UI.props

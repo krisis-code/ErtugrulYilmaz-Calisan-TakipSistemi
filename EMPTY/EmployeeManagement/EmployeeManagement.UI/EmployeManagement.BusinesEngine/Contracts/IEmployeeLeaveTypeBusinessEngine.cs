@@ -24,5 +24,7 @@ namespace EmployeeManagement.BusinesEngine.Contracts
 
 		Result<EmployeeLeaveTypeVM> EditEmployeeLeaveType(EmployeeLeaveTypeVM model);
 
+		Result<EmployeeLeaveTypeVM> RemoveEmployeeLeaveType(int id);
+
 	}
 }
