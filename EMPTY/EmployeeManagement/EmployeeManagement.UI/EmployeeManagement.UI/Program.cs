@@ -5,14 +5,17 @@ using EmployeeManagement.Data.Contracts;
 using EmployeeManagement.Data.Contracts.DataContext;
 using EmployeeManagement.Data.Implementaion;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 
-// DbContext yapýlandýrmasý için servisleri ekle
+// DbContext yapï¿½landï¿½rmasï¿½ iï¿½in servisleri ekle
 builder.Services.AddDbContext<EmployeeManagementContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<EmployeeManagementContext>();
 builder.Services.AddAutoMapper(typeof(Maps));
 //builder.Services.AddScoped<IEmployeeLeaveAllocationRepository, EmployeeLeaveAllocationRepository>();
 //builder.Services.AddScoped<IEmployeeLeaveRequestRepository, EmployeeLeaveRequestRepository>();
