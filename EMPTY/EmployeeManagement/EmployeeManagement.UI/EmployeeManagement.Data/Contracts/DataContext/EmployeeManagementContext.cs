@@ -1,4 +1,4 @@
-﻿using CalisanTakipSistemi.Data.DbModels;
+﻿
 using EmployeeManagement.Data.DbModels;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;

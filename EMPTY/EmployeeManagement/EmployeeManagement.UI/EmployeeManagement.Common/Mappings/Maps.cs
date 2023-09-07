@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using CalisanTakipSistemi.Data.DbModels;
+
 using EmployeeManagement.Common.VModels;
 using EmployeeManagement.Data.DbModels;
 

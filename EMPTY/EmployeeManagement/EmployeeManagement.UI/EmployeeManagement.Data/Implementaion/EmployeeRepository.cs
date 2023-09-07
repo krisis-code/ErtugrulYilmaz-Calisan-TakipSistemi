@@ -1,4 +1,4 @@
-﻿using CalisanTakipSistemi.Data.DbModels;
+﻿
 using EmployeeManagement.Data.Contracts;
 using EmployeeManagement.Data.Contracts.DataContext;
 using EmployeeManagement.Data.DbModels;

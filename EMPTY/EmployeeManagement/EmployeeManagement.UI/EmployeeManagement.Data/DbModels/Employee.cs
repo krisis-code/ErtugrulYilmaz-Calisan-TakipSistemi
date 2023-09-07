@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalisanTakipSistemi.Data.DbModels
+namespace EmployeeManagement.Data.DbModels
 {
     public class Employee : IdentityUser
     {
