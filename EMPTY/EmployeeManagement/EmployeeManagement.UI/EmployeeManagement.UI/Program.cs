@@ -16,7 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<EmployeeManagementContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
 
-//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<EmployeeManagementContext>();
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<EmployeeManagementContext>();
 builder.Services.AddAutoMapper(typeof(Maps));
 //builder.Services.AddScoped<IEmployeeLeaveAllocationRepository, EmployeeLeaveAllocationRepository>();
 //builder.Services.AddScoped<IEmployeeLeaveRequestRepository, EmployeeLeaveRequestRepository>();
@@ -24,7 +24,7 @@ builder.Services.AddAutoMapper(typeof(Maps));
 builder.Services.AddScoped<IEmployeeLeaveTypeBusinessEngine, EmployeeLeaveTypeBusinessEngine>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
-builder.Services.AddDefaultIdentity<Employee>().AddEntityFrameworkStores<EmployeeManagementContext>();
+/*uilder.Services.AddDefaultIdentity<Employee>().AddEntityFrameworkStores<EmployeeManagementContext>();*/
 
 var app = builder.Build();
 
