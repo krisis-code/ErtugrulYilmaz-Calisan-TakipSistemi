@@ -24,6 +24,7 @@ builder.Services.AddAutoMapper(typeof(Maps));
 builder.Services.AddScoped<IEmployeeLeaveTypeBusinessEngine, EmployeeLeaveTypeBusinessEngine>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+builder.Services.AddSession();
 /*uilder.Services.AddDefaultIdentity<Employee>().AddEntityFrameworkStores<EmployeeManagementContext>();*/
 
 var app = builder.Build();
@@ -36,6 +37,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

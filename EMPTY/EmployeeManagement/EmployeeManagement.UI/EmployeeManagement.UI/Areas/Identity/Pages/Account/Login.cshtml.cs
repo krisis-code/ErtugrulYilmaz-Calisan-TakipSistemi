@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text.Encodings.Web;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+﻿using EmployeeManagement.Common.SessionOperation;
+using EmployeeManagement.Data.Contracts;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Session;
+using Newtonsoft.Json;
+using System.ComponentModel.DataAnnotations;
 
 namespace EmployeeManagement.UI.Areas.Identity.Pages.Account
 {
@@ -20,14 +17,18 @@ namespace EmployeeManagement.UI.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private readonly IUnitOfWork _uOW;
 
         public LoginModel(SignInManager<IdentityUser> signInManager, 
             ILogger<LoginModel> logger,
-            UserManager<IdentityUser> userManager)
+            UserManager<IdentityUser> userManager,
+            IUnitOfWork uOW)
+            
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
+            _uOW = uOW;
         }
 
         [BindProperty]
@@ -85,6 +86,20 @@ namespace EmployeeManagement.UI.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
+                    var user = _userManager.FindByEmailAsync(Input.Email);
+                    //var user = _uOW.employeeRepository.GetFirtsOfDefault(u=>u.Email == Input.Email);
+                    //if (user != null)
+                    //{
+                    //    var sessionContext = new SessionContext();
+                    //    sessionContext.Email = user.Result.Email;
+                    //    sessionContext.FirstName = user.Result.NormalizedUserName;
+                    //    //sessionContext.LastName = user.Result.LastName;
+                    //    sessionContext.LoginId = user.Result.Id;
+                    //    //Microsoft.AspNetCore.Session["AppUserInfoSession"] = sessionContext;
+                    //    HttpContent.Session.SetString("AppUserInfoSession", JsonConvert.SerializeObject(sessionContext));
+
+                    //}
+
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)

@@ -1,8 +1,4 @@
-﻿
-using EmployeeManagement.Data.DbModels;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using EmployeeManagement.Data.DbModels;
 
 namespace EmployeeManagement.Data.Contracts
 {
