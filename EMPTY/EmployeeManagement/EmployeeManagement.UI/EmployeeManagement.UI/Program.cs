@@ -7,6 +7,8 @@ using EmployeeManagement.Data.Implementaion;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using EmployeeManagement.Data.DbModels;
+using EmployeeManagement.Common.ConstantModels;
+using Microsoft.AspNet.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,16 +33,19 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
-app.UseHttpsRedirection();
-app.UseStaticFiles();
 
-app.UseRouting();
+    app.UseHttpsRedirection();
+    app.UseStaticFiles();
+    
+    app.UseRouting();
 
-app.UseAuthorization();
-app.UseSession();
+    app.UseAuthorization();
+    app.UseSession();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-app.MapRazorPages();
+    app.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
+    app.MapRazorPages();
+
+
 app.Run();
