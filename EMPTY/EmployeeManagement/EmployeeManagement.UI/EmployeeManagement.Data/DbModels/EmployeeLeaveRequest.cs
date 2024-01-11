@@ -14,14 +14,17 @@ namespace EmployeeManagement.Data.DbModels
 
         //TODO:Talepte bulununan kullanıcı bilgileri
         public string RequestingEmployeeId { get; set; }
+
         [ForeignKey("RequestingEmployeeId")]
         public Employee  RequestingEmployee { get; set; }
 
         //TODO:Onaylayan bulununan kullanıcı bilgileri
         public string ApprovedEmployeeId { get; set; }
+
         [ForeignKey("ApprovedEmployeeId")]
         public Employee ApprovedEmployee { get; set; }
         public int EmployeeLeaveTypeId { get; set; }
+
         [ForeignKey("EmployeeLeaveTypeId")]
         public EmployeeLeaveType EmployeeLeaveType { get; set; }
 

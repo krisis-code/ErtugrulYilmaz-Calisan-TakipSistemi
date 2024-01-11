@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xzqsxJNZlM7YlFyTN+3CitDx+TVCYeAI7KFDlAMBVS0mggzP/uQ6YC/4ia1JPyZVvIymbjpiBnKmd8Mjq5PC+A==",
+  "dgSpecHash": "Z3XbYLd9xB9jmDkaPCL5tFguonjKH5chD4z7okQplj9utySl4sPStGYKPDrYCGUnZgsdA34dkVKg71dzcHTbVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj",
+  "projectFilePath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kris\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Kris\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

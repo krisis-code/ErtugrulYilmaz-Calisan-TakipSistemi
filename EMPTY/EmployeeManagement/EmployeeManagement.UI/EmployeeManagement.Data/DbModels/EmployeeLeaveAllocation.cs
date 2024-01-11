@@ -17,10 +17,12 @@ namespace EmployeeManagement.Data.DbModels
         public int Period { get; set; }
 
         public string EmployeeId { get; set; }
+
         [ForeignKey("EmployeeId")]
         public Employee Employee { get; set; }
 
         public int EmployeeLeaveTypeId { get; set; }
+
         [ForeignKey("EmployeeLeaveTypeId")]
         public EmployeeLeaveType EmployeeLeaveType { get; set; }
     }

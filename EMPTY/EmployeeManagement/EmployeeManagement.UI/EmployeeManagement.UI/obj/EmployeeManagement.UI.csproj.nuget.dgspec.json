@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj": {}
+    "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj": {
+    "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj",
         "projectName": "EmployeeManagement.Common",
-        "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj",
+        "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj",
         "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\obj\\",
+        "outputPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -33,8 +33,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
-                "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
+              "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
+                "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
+    "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
         "projectName": "EmployeeManagement.Data",
-        "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
+        "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
         "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\obj\\",
+        "outputPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -148,14 +148,14 @@
         }
       }
     },
-    "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj": {
+    "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj",
+        "projectUniqueName": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj",
         "projectName": "EmployeeManagement.UI",
-        "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj",
+        "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\EmployeeManagement.UI.csproj",
         "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\obj\\",
+        "outputPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -177,14 +177,14 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj": {
-                "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj"
+              "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj": {
+                "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj"
               },
-              "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
-                "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
+              "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
+                "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
               },
-              "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj": {
-                "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj"
+              "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj": {
+                "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj"
               }
             }
           }
@@ -261,14 +261,14 @@
         }
       }
     },
-    "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj": {
+    "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj",
+        "projectUniqueName": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj",
         "projectName": "EmployeeManagement.BusinesEngine",
-        "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj",
+        "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\EmployeeManagement.BusinesEngine.csproj",
         "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\obj\\",
+        "outputPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeManagement.BusinesEngine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -290,11 +290,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj": {
-                "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj"
+              "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj": {
+                "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Common\\EmployeeManagement.Common.csproj"
               },
-              "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
-                "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
+              "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj": {
+                "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj"
               }
             }
           }

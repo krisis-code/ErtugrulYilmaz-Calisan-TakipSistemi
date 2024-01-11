@@ -3361,11 +3361,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
       "projectName": "EmployeeManagement.Data",
-      "projectPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
+      "projectPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\EmployeeManagement.Data.csproj",
       "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kris\\Desktop\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\obj\\",
+      "outputPath": "C:\\Users\\Kris\\Desktop\\Yazılım\\ErtugrulYilmaz-Calisan-TakipSistemi\\EMPTY\\EmployeeManagement\\EmployeeManagement.UI\\EmployeeManagement.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

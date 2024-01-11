@@ -16,20 +16,34 @@ namespace EmployeeManagement.Common.ConstantModels
             SeedUsers(userManager);
         }
 
-        private static void SeedUsers(UserManager<Employee> userManager)
+        public static void SeedUsers(UserManager<Employee> userManager)
         {
-            if (userManager.FindByNameAsync(ResultConstant.Admin_Email).Result==null) {
+            if (userManager == null)
+            {
+                throw new ArgumentNullException(nameof(userManager));
+            }
 
+            if (userManager.FindByNameAsync(ResultConstant.Admin_Email).Result == null)
+            {
                 var user = new Employee
                 {
-                    UserName = "",
+                    UserName = ResultConstant.Admin_Email,
                     Email = ResultConstant.Admin_Email,
-
+                    // Diğer özellikleri de ayarlayın
                 };
-                var result = userManager.CreateAsync(user,ResultConstant.Admin_Password).Result;
+
+                // Kullanıcıyı oluşturun
+                IdentityResult result = userManager.CreateAsync(user, ResultConstant.Admin_Password).Result;
+
                 if (result.Succeeded)
                 {
-                    userManager.AddToRoleAsync(user, ResultConstant.Admin_Role);
+                    // Rol ataması yapın (örneğin Admin rolü)
+                    userManager.AddToRoleAsync(user, ResultConstant.Admin_Role).Wait();
+                }
+                else
+                {
+                    // Kullanıcı oluşturma başarısız oldu, hata işleme
+                    throw new Exception($"SeedUsers: {string.Join(", ", result.Errors.Select(e => e.Description))}");
                 }
             }
         }
