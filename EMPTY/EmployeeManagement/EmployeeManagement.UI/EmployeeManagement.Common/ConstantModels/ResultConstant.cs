@@ -13,6 +13,8 @@ namespace EmployeeManagement.Common.ConstantModels
 		public const string RecordCreatedSuccessFully = "Kayıt Başarı İle Gerçekleşti.";
 		public const string RecordCreatedNotSuccessFully = "Kayıt Başarısız Oldu.";
         //-------------------------------------------------------------------//
+        public const string Admin_FirstName = "Admin.";
+        public const string Admin_LastName = "Admin.";
         public const string Admin_Role = "Administrator.";
         public const string Employee_Role = "Employee.";
         public const string Admin_Email = "menesbaspinar@hotmail.com";

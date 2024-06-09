@@ -1,16 +1,14 @@
 ﻿using EmployeeManagement.Data.DbModels;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EmployeeManagement.Common.ConstantModels
 {
     public static class SeedData
     {
-        public static void Seed(UserManager<Employee> userManager,RoleManager<IdentityRole> roleManager)
+        public static void Seed(UserManager<Employee> userManager, RoleManager<IdentityRole> roleManager)
         {
             SeedRoles(roleManager);
             SeedUsers(userManager);
@@ -23,50 +21,79 @@ namespace EmployeeManagement.Common.ConstantModels
                 throw new ArgumentNullException(nameof(userManager));
             }
 
-            if (userManager.FindByNameAsync(ResultConstant.Admin_Email).Result == null)
+            var existingUser = userManager.FindByNameAsync(ResultConstant.Admin_Email).Result;
+
+            if (existingUser == null)
             {
                 var user = new Employee
                 {
+                    FirstName = ResultConstant.Admin_FirstName,
+                    LastName = ResultConstant.Admin_LastName,
                     UserName = ResultConstant.Admin_Email,
                     Email = ResultConstant.Admin_Email,
+                    TaxId = "1"
                     // Diğer özellikleri de ayarlayın
                 };
 
-                // Kullanıcıyı oluşturun
-                IdentityResult result = userManager.CreateAsync(user, ResultConstant.Admin_Password).Result;
+                try
+                {
+                    // Kullanıcıyı oluşturun
+                    IdentityResult result = userManager.CreateAsync(user, ResultConstant.Admin_Password.ToString()).Result;
 
-                if (result.Succeeded)
-                {
-                    // Rol ataması yapın (örneğin Admin rolü)
-                    userManager.AddToRoleAsync(user, ResultConstant.Admin_Role).Wait();
+                    if (result.Succeeded)
+                    {
+                        // Rol ataması yapın (örneğin Admin rolü)
+                        userManager.AddToRoleAsync(user, ResultConstant.Admin_Role).Wait();
+                    }
+                    else
+                    {
+                        throw new Exception($"SeedUsers: {string.Join(", ", result.Errors.Select(e => e.Description))}");
+                    }
                 }
-                else
+                catch (DbUpdateException ex)
                 {
-                    // Kullanıcı oluşturma başarısız oldu, hata işleme
-                    throw new Exception($"SeedUsers: {string.Join(", ", result.Errors.Select(e => e.Description))}");
+                    throw new Exception($"DbUpdateException: {ex.Message}", ex);
                 }
+                catch (Exception ex)
+                {
+                    throw new Exception($"An error occurred: {ex.Message}", ex);
+                }
+            }
+            else
+            {
+                Console.WriteLine("User already exists.");
             }
         }
 
         private static void SeedRoles(RoleManager<IdentityRole> roleManager)
         {
-            if (!roleManager.RoleExistsAsync(ResultConstant.Admin_Role).Result)
+            if (roleManager == null)
             {
-                var role = new IdentityRole
-                {
-                    Name = ResultConstant.Admin_Role
-                };
-                var result = roleManager.CreateAsync(role).Result;
-
+                throw new ArgumentNullException(nameof(roleManager));
             }
-            if (!roleManager.RoleExistsAsync(ResultConstant.Employee_Role).Result)
-            {
-                var role = new IdentityRole
-                {
-                    Name = ResultConstant.Employee_Role
-                };
-                var result = roleManager.CreateAsync(role).Result;
 
+            try
+            {
+                if (!roleManager.RoleExistsAsync(ResultConstant.Admin_Role).Result)
+                {
+                    var role = new IdentityRole
+                    {
+                        Name = ResultConstant.Admin_Role
+                    };
+                    var result = roleManager.CreateAsync(role).Result;
+                }
+                if (!roleManager.RoleExistsAsync(ResultConstant.Employee_Role).Result)
+                {
+                    var role = new IdentityRole
+                    {
+                        Name = ResultConstant.Employee_Role
+                    };
+                    var result = roleManager.CreateAsync(role).Result;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"An error occurred while creating roles: {ex.Message}", ex);
             }
         }
     }
