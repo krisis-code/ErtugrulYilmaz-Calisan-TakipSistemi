@@ -1,10 +1,13 @@
 ﻿using EmployeeManagement.BusinesEngine.Contracts;
 using EmployeeManagement.BusinesEngine.Implementaion;
+using EmployeeManagement.Common.ConstantModels;
 using EmployeeManagement.Common.VModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.UI.Controllers
 {
+    [Authorize(Roles =ResultConstant.Admin_Role)]
     public class EmployeeLeaveTypesController : Controller
     {
         private readonly IEmployeeLeaveTypeBusinessEngine _employeeLeaveTypeBusinessEngine;

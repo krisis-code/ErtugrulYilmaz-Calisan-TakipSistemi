@@ -1,10 +1,19 @@
-﻿using EmployeeManagement.Data.DbModels;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Text.Encodings.Web;
+using System.Threading.Tasks;
+using EmployeeManagement.Data.DbModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.Extensions.Logging;
 
 namespace EmployeeManagement.UI.Areas.Identity.Pages.Account
 {
@@ -20,11 +29,11 @@ namespace EmployeeManagement.UI.Areas.Identity.Pages.Account
             UserManager<Employee> userManager,
             SignInManager<Employee> signInManager,
             ILogger<RegisterModel> logger
-           /* IEmailSender emailSender*/)
+          /*  IEmailSender emailSender*/)
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            //_logger = logger;
+            _logger = logger;
             //_emailSender = emailSender;
         }
 
