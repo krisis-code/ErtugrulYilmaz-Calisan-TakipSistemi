@@ -1,12 +1,9 @@
-﻿using EmployeeManagement.Common.SessionOperation;
-using EmployeeManagement.Data.Contracts;
-using EmployeeManagement.Data.DbModels;
+﻿using EmployeeManagement.Data.DbModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Session;
 using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 
@@ -18,18 +15,18 @@ namespace EmployeeManagement.UI.Areas.Identity.Pages.Account
         private readonly UserManager<Employee> _userManager;
         private readonly SignInManager<Employee> _signInManager;
         private readonly ILogger<LoginModel> _logger;
-        private readonly IUnitOfWork _uOW;
+        //private readonly IUnitOfWork _uOW;
 
         public LoginModel(SignInManager<Employee> signInManager, 
             ILogger<LoginModel> logger,
-            UserManager<Employee> userManager,
-            IUnitOfWork uOW)
+            UserManager<Employee> userManager
+           /* IUnitOfWork uOW*/)
             
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
-            _uOW = uOW;
+            //_uOW = uOW;
         }
 
         [BindProperty]
