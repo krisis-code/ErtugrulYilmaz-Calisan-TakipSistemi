@@ -1,4 +1,7 @@
-﻿
+﻿@inject SignInManager<Employee> SignInManager
+@inject UserManager<Employee> UserManager
+
+
 
 <html lang="en">
 <head>
@@ -55,16 +58,18 @@
 
                 <span class="icon-bar"></span>
             </button>
+           
+                <div class="navbar-header pull-left">
+                    <a href="index.html" class="navbar-brand">
+                        <small>
+                            <i class="fa fa-leaf"></i>
+                            Çalışan İzin Takip Sistemi
+                        </small>
+                    </a>
+                </div>
 
-            <div class="navbar-header pull-left">
-                <a href="index.html" class="navbar-brand">
-                    <small>
-                        <i class="fa fa-leaf"></i>
-                        Çalışan İzin Takip Sistemi
-                    </small>
-                </a>
-            </div>
-
+     
+         
 
             <div class="navbar-buttons navbar-header pull-right" role="navigation">
                 <ul class="nav ace-nav">
@@ -104,9 +109,10 @@
             <script type="text/javascript">
                 try { ace.settings.loadState('sidebar') } catch (e) { }
             </script>
-
-            <ul class="nav nav-list">
-                <li class="">
+             @if (SignInManager.IsSignedIn(User))
+            {
+                <ul class="nav nav-list">
+                    <li class="">
                     <a asp-controller="EmployeeLeaveTypes" asp-action="Index">
                         <i class="menu-icon fa fa-caret-right"></i>
                         Çalışan İzin Tipi
@@ -134,7 +140,7 @@
 
 
             </ul><!-- /.nav-list -->
-
+            }
             <div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse">
                 <i id="sidebar-toggle-icon" class="ace-icon fa fa-angle-double-left ace-save-state"
                    data-icon1="ace-icon fa fa-angle-double-left"
