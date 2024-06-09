@@ -9,9 +9,29 @@ namespace EmployeeManagement.Common.ConstantModels
     {
         public static void Seed(UserManager<Employee> userManager, RoleManager<IdentityRole> roleManager)
         {
-            SeedUsers(userManager);
             SeedRoles(roleManager);
+            SeedUsers(userManager);
+            
            
+        }
+        private static void SeedRoles(RoleManager<IdentityRole> roleManager)
+        {
+            if (!roleManager.RoleExistsAsync(ResultConstant.Admin_Role).Result)
+            {
+                var role = new IdentityRole
+                {
+                    Name = ResultConstant.Admin_Role
+                };
+                var result = roleManager.CreateAsync(role).Result;
+            }
+            if (!roleManager.RoleExistsAsync(ResultConstant.Employee_Role).Result)
+            {
+                var role = new IdentityRole
+                {
+                    Name = ResultConstant.Employee_Role
+                };
+                var result = roleManager.CreateAsync(role).Result;
+            }
         }
         private static void SeedUsers(UserManager<Employee> userManager)
         {
@@ -36,25 +56,7 @@ namespace EmployeeManagement.Common.ConstantModels
                 }
             }
         }
-        private static void SeedRoles(RoleManager<IdentityRole> roleManager)
-        {
-            if (!roleManager.RoleExistsAsync(ResultConstant.Admin_Role).Result)
-            {
-                var role = new IdentityRole 
-                {
-                    Name = ResultConstant.Admin_Role 
-                };
-               var result = roleManager.CreateAsync(role).Result;
-            }
-            if (!roleManager.RoleExistsAsync(ResultConstant.Employee_Role).Result)
-            {
-                var role = new IdentityRole
-                {
-                    Name = ResultConstant.Employee_Role 
-                };
-               var result = roleManager.CreateAsync(role).Result;
-            }
-        }
+        
 
        
     }

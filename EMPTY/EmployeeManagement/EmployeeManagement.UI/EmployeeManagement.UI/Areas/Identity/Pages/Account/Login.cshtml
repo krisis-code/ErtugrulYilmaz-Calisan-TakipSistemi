@@ -19,7 +19,7 @@
                     <span asp-validation-for="Input.Email" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="Input.Password"></label>
+                    <label asp-for="Input.Password">Şifre</label>
                     <input asp-for="Input.Password" class="form-control" />
                     <span asp-validation-for="Input.Password" class="text-danger"></span>
                 </div>
@@ -32,11 +32,11 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-default">Log in</button>
+                    <button type="submit" class="btn btn-default">Giriş yap</button>
                 </div>
                 <div class="form-group">
                     <p>
-                        <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                        <a id="forgot-password" asp-page="./ForgotPassword">Şifrenizimi unuttunuz?</a>
                     </p>
                     <p>
                         <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>

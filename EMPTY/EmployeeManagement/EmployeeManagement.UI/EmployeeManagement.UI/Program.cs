@@ -11,20 +11,24 @@ using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// ConfigureServices yöntemine AddRazorPages hizmetini ekle
+builder.Services.AddRazorPages();
+
 // DbContext konfigürasyonu
 builder.Services.AddDbContext<EmployeeManagementContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection")));
 
-//Kimlik doğrulama ve yetkilendirme konfigürasyonu
+// Kimlik doğrulama ve yetkilendirme konfigürasyonu
 builder.Services.AddIdentity<Employee, IdentityRole>(options =>
 {
     options.SignIn.RequireConfirmedAccount = true;
-}).AddUserManager<UserManager<Employee>>()
-.AddRoleManager<RoleManager<IdentityRole>>()
-   .AddEntityFrameworkStores<EmployeeManagementContext>()
-    .AddDefaultTokenProviders(); // UserManager<Employee> hizmetini ekleyin
+})
+    .AddEntityFrameworkStores<EmployeeManagementContext>()
+    .AddDefaultTokenProviders()
+    .AddUserManager<UserManager<Employee>>()
+    .AddRoleManager<RoleManager<IdentityRole>>(); // RoleManager eklendi.
 
-//builder.Services.AddIdentity<IdentityUser,IdentityRole>().AddDefaultTokenProviders().AddEntityFrameworkStores<EmployeeManagementContext>();
+// Diğer hizmetlerin ekleme işlemleri...
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie();
@@ -33,7 +37,7 @@ builder.Services.AddAuthorization();
 
 // Controller, Razor Pages ve Session hizmetlerini ekle
 builder.Services.AddControllers();
-builder.Services.AddRazorPages();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddSession();
 
 var app = builder.Build();
@@ -58,9 +62,10 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.UseSession();
 
-app.MapControllers();
+// Razor Pages kullanıyorsanız bu satırı ekleyin
 app.MapRazorPages();
 
+app.MapControllers();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
